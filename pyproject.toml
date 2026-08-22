@@ -1,0 +1,13 @@
+[project]
+name = "link-e74b-net"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.141.1",
+    "peewee>=4.3.0",
+    "pydantic>=2.13.4",
+    "python-multipart>=0.0.32",
+    "uvicorn>=0.52.4",
+]
