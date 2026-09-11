@@ -7,5 +7,5 @@ COPY pyproject.toml .
 RUN uv sync --locked
 COPY . .
 
-CMD ["uv", "run", "uvicorn", "main:app"]
+CMD ["uv", "run", "uvicorn", "main:app", "--host", "0.0.0.0"]
 EXPOSE 8000
